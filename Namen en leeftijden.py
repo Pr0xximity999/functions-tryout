@@ -1,5 +1,6 @@
 def naamEnLeeftijd(naam:str, leeftijd:int):
-    print(f"Hallo {naam}, je leeftijd is {leeftijd} jaar")    
+    print(f"Hallo {naam}, je leeftijd is {leeftijd} jaar") 
+       
 while True:
     invoerNaam = input("Wat is je naam? >>")
     if invoerNaam == "stop": exit()
